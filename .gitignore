@@ -1,3 +1,15 @@
+# Python virtual environments
+venv/
+env/
+.weather_venv/
+
+weather_api/weather_venv
+
+# Ignore all virtual environments within weather_api directory
+weather_api/**/venv/
+weather_api/**/env/
+weather_api/**/.weather_venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
